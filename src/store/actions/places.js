@@ -13,7 +13,7 @@ export const deletePlace = () => {
     };
 };
 
-export const selectPlace = () => {
+export const selectPlace = (key) => {
     return {
         type: SELECT_PLACE,
         placeKey: key
